@@ -1,0 +1,123 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="Login with correct mobile number and Password">
+        <parameter name="author" value="Jeevan" />
+        <classes>
+            <class name="com.Ottplay.testcases.Login_with_correct_mobile_number_and_Password">
+                <methods>
+                    <include name="LoginTest" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    
+    <test name="Verify_ReadSynopsys_SubscribedUser">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.Verify_ReadSynopsys_SubscribedUser">
+                <methods>
+                    <include name="Verify_ReadSynopsys_functionality_for_SubscribedUser" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    
+    <test name="Verify add to watchlist button functionality">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.Verify_add_to_watchlist_button_functionality">
+                <methods>
+                    <include name="Verify_add_to_watchlist_button_functionality_subscribed_user" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    
+    <test name="Verify like button functionality for subscribed user">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.VerifyLikeButtonFunctionality">
+                <methods>
+                    <include name="verifyLikeButtonFunctionality" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+
+    <test name="Test Logout">
+        <parameter name="author" value="Aarti" />
+        <classes>
+            <class name="com.Ottplay.testcases.Test_Logout">
+                <methods>
+                    <include name="TestLogout" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    
+    <test name="Verify_ReadSynopsys_UnSubscribedUser">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.Verify_ReadSynopsys_SubscribedUser">
+                <methods>
+                    <include name="Verify_ReadSynopsys_functionality_for_UnSubscribedUser" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    
+    <test name="Verify add to watchlist button functionality Unsubscribed user">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.Verify_add_to_watchlist_button_functionality">
+                <methods>
+                    <include name="Verify_add_to_watchlist_button_functionality_Unsubscribed_user" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    
+    <test name="Verify like button functionality for Unsubscribed user">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.VerifyLikeButtonFunctionalityForUnSubscribedUser">
+                <methods>
+                    <include name="verifyLikeButtonFunctionalityForUnSubscribedUser" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    <test name="VerifyBannersOnHomePageForSubscribedUser">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.VerifyBannersOnHomePage">
+                <methods>
+                    <include name="VerifyBannersOnHomePageForSubscribedUser" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    
+    <test name="VerifyBannersOnHomePageForUnSubscribedUser">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.VerifyBannersOnHomePage">
+                <methods>
+                    <include name="VerifyBannersOnHomePageForUnSubscribedUser" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+    
+     <test name="Verify Search History Functionality">
+        <parameter name="author" value="Dhanunjaya" />
+        <classes>
+            <class name="com.Ottplay.testcases.VerifySearchFunctionality">
+                <methods>
+                    <include name="VerifySearchHistoryFunctionality" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

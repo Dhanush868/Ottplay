@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify SignUp Otp Functionality(failed)">
+    <parameter name="author" value="Dhanunjaya"/>
+    <classes>
+      <class name="com.Ottplay.testcases.VerifySignUpOtpFunctionality">
+        <methods>
+          <include name="VerifySignUpOtpFunctionality"/>
+          <include name="generateExtentReports"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="checkStatus"/>
+          <include name="initialiseExtentReports"/>
+        </methods>
+      </class> <!-- com.Ottplay.testcases.VerifySignUpOtpFunctionality -->
+    </classes>
+  </test> <!-- Verify SignUp Otp Functionality(failed) -->
+</suite> <!-- Failed suite [Suite] -->
